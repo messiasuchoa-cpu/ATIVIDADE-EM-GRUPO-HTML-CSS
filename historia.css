@@ -1,0 +1,32 @@
+
+    /* Estilos da página de história (complementam o style.css) */
+    .historia { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
+    .clube {
+    --cor: #333;
+    border-left: 8px solid var(--cor);
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+    }
+    .clube header { background: none; color: inherit; padding: 0; text-align: left; margin-bottom: .75rem; }
+    .clube h3 { margin: 0; color: var(--cor); font-size: 1.5rem; }
+    .clube .meta { margin: .25rem 0 0; color: #555; font-size: .95rem; }
+    .clube p { line-height: 1.65; max-width: 70ch; margin: .6rem 0; }
+    .clube .marcos { margin: .9rem 0 0; padding-left: 1.2rem; line-height: 1.6; }
+    .clube .marcos li { margin-bottom: .25rem; }
+    .indice { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+    .indice a {
+    display: inline-block; padding: .35rem .8rem; border-radius: 999px;
+    border: 2px solid var(--cor, #333); color: inherit; text-decoration: none; font-size: .95rem;
+    }
+    .indice a:hover, .indice a:focus-visible { background: var(--cor, #333); color: #fff; }
+    .clube { scroll-margin-top: 1rem; }
+
+    body{
+    background-image: url(assets/historia\ futebol.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:center ;
+    }
+    
